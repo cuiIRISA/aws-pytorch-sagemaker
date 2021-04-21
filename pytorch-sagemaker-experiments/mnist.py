@@ -3,7 +3,6 @@ import json
 import logging
 import os
 from os.path import join
-import sagemaker_containers
 import sys
 import torch
 import torch.distributed as dist
@@ -13,8 +12,6 @@ import torch.optim as optim
 import torch.utils.data
 import torch.utils.data.distributed
 from torchvision import datasets, transforms
-
-import boto3
 
 import time
 
