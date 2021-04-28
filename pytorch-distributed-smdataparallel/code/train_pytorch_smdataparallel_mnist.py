@@ -104,7 +104,7 @@ def main():
                         help='how many batches to wait before logging training status')
     parser.add_argument('--save-model', action='store_true', default=False,
                         help='For Saving the current Model')
-    parser.add_argument('--verbose', action='store_true', default=False,
+    parser.add_argument('--verbose', action='store_true', default=True,
                         help='For displaying SMDataParallel-specific logs')
     parser.add_argument('--data-path', type=str, default='/tmp/data', help='Path for downloading '
                                                                            'the MNIST dataset')
